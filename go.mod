@@ -1,4 +1,4 @@
-module github.com/wenkechen/browser-data
+module github.com/wenkechen/browserdata
 
 go 1.18
 

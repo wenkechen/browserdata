@@ -6,10 +6,10 @@ import (
 	"io/fs"
 	"path/filepath"
 
-	"github.com/wenkechen/browser-data/internal/browingdata"
-	"github.com/wenkechen/browser-data/internal/item"
-	"github.com/wenkechen/browser-data/internal/utils/fileutil"
-	"github.com/wenkechen/browser-data/internal/utils/typeutil"
+	"github.com/wenkechen/browserdata/internal/browingdata"
+	"github.com/wenkechen/browserdata/internal/item"
+	"github.com/wenkechen/browserdata/internal/utils/fileutil"
+	"github.com/wenkechen/browserdata/internal/utils/typeutil"
 )
 
 type firefox struct {

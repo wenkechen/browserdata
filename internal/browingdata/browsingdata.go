@@ -3,17 +3,17 @@ package browingdata
 import (
 	"path"
 
-	"github.com/wenkechen/browser-data/internal/browingdata/bookmark"
-	"github.com/wenkechen/browser-data/internal/browingdata/cookie"
-	"github.com/wenkechen/browser-data/internal/browingdata/creditcard"
-	"github.com/wenkechen/browser-data/internal/browingdata/download"
-	"github.com/wenkechen/browser-data/internal/browingdata/extension"
-	"github.com/wenkechen/browser-data/internal/browingdata/history"
-	"github.com/wenkechen/browser-data/internal/browingdata/localstorage"
-	"github.com/wenkechen/browser-data/internal/browingdata/password"
-	"github.com/wenkechen/browser-data/internal/item"
-	"github.com/wenkechen/browser-data/internal/log"
-	"github.com/wenkechen/browser-data/internal/utils/fileutil"
+	"github.com/wenkechen/browserdata/internal/browingdata/bookmark"
+	"github.com/wenkechen/browserdata/internal/browingdata/cookie"
+	"github.com/wenkechen/browserdata/internal/browingdata/creditcard"
+	"github.com/wenkechen/browserdata/internal/browingdata/download"
+	"github.com/wenkechen/browserdata/internal/browingdata/extension"
+	"github.com/wenkechen/browserdata/internal/browingdata/history"
+	"github.com/wenkechen/browserdata/internal/browingdata/localstorage"
+	"github.com/wenkechen/browserdata/internal/browingdata/password"
+	"github.com/wenkechen/browserdata/internal/item"
+	"github.com/wenkechen/browserdata/internal/log"
+	"github.com/wenkechen/browserdata/internal/utils/fileutil"
 )
 
 type Data struct {

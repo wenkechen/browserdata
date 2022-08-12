@@ -1,5 +1,5 @@
 <div align="center">
-<img src="LOGO.svg" alt="browser-data logo" />
+<img src="LOGO.svg" alt="browserdata logo" />
 </div>
 
 
@@ -90,7 +90,7 @@
 ``` bash
 $ git clone https://github.com/moonD4rk/HackBrowserData
 
-$ cd HackBrowserData/cmd/browser-data
+$ cd HackBrowserData/cmd/browserdata
 
 $ CGO_ENABLED=1 go build
 ```
@@ -119,12 +119,12 @@ CC=x86_64-linux-musl-gcc CXX=x86_64-linux-musl-g++ GOARCH=amd64 GOOS=linux CGO_E
 双击直接运行，也可以使用命令行调用相应的命令。
 
 ```
-PS C:\test> .\browser-data.exe -h
+PS C:\test> .\browserdata.exe -h
 NAME:
-   browser-data - Export passwords/cookies/history/bookmarks from browser
+   browserdata - Export passwords/cookies/history/bookmarks from browser
 
 USAGE:
-   [browser-data -b chrome -f json -dir results -cc]
+   [browserdata -b chrome -f json -dir results -cc]
    Export all browingdata(password/cookie/history/bookmark) from browser
    Github Link: https://github.com/moonD4rk/HackBrowserData
 
@@ -142,7 +142,7 @@ GLOBAL OPTIONS:
    --version, -v                     print the version (default: false)
 
 
-PS C:\test>  .\browser-data.exe -b all -f json --dir results -zip
+PS C:\test>  .\browserdata.exe -b all -f json --dir results -zip
 [NOTICE] [browser.go:46,pickChromium] find browser Chrome success  
 [NOTICE] [browser.go:46,pickChromium] find browser Microsoft Edge success  
 [NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_download.json success  

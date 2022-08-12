@@ -3,7 +3,7 @@
 package browser
 
 import (
-	"github.com/wenkechen/browser-data/internal/item"
+	"github.com/wenkechen/browserdata/internal/item"
 )
 
 var (

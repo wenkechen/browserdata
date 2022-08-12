@@ -8,10 +8,10 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/wenkechen/browser-data/internal/item"
-	"github.com/wenkechen/browser-data/internal/log"
-	"github.com/wenkechen/browser-data/internal/utils/fileutil"
-	"github.com/wenkechen/browser-data/internal/utils/typeutil"
+	"github.com/wenkechen/browserdata/internal/item"
+	"github.com/wenkechen/browserdata/internal/log"
+	"github.com/wenkechen/browserdata/internal/utils/fileutil"
+	"github.com/wenkechen/browserdata/internal/utils/typeutil"
 
 	_ "github.com/mattn/go-sqlite3"
 )

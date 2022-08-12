@@ -9,10 +9,10 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/wenkechen/browser-data/internal/decrypter"
-	"github.com/wenkechen/browser-data/internal/item"
-	"github.com/wenkechen/browser-data/internal/log"
-	"github.com/wenkechen/browser-data/internal/utils/fileutil"
+	"github.com/wenkechen/browserdata/internal/decrypter"
+	"github.com/wenkechen/browserdata/internal/item"
+	"github.com/wenkechen/browserdata/internal/log"
+	"github.com/wenkechen/browserdata/internal/utils/fileutil"
 )
 
 var errDecodeMasterKeyFailed = errors.New("decode master key failed")

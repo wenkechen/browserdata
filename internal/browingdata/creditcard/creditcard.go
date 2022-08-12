@@ -6,9 +6,9 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/wenkechen/browser-data/internal/decrypter"
-	"github.com/wenkechen/browser-data/internal/item"
-	"github.com/wenkechen/browser-data/internal/log"
+	"github.com/wenkechen/browserdata/internal/decrypter"
+	"github.com/wenkechen/browserdata/internal/item"
+	"github.com/wenkechen/browserdata/internal/log"
 )
 
 type ChromiumCreditCard []card

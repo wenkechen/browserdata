@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/wenkechen/browser-data/internal/browingdata"
-	"github.com/wenkechen/browser-data/internal/browser/chromium"
-	"github.com/wenkechen/browser-data/internal/browser/firefox"
-	"github.com/wenkechen/browser-data/internal/log"
-	"github.com/wenkechen/browser-data/internal/utils/fileutil"
-	"github.com/wenkechen/browser-data/internal/utils/typeutil"
+	"github.com/wenkechen/browserdata/internal/browingdata"
+	"github.com/wenkechen/browserdata/internal/browser/chromium"
+	"github.com/wenkechen/browserdata/internal/browser/firefox"
+	"github.com/wenkechen/browserdata/internal/log"
+	"github.com/wenkechen/browserdata/internal/utils/fileutil"
+	"github.com/wenkechen/browserdata/internal/utils/typeutil"
 )
 
 type Browser interface {
