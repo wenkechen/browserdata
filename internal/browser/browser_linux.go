@@ -3,7 +3,7 @@
 package browser
 
 import (
-	"hack-browser-data/internal/item"
+	"github.com/wenkechen/hack-browser-data/internal/item"
 )
 
 var (

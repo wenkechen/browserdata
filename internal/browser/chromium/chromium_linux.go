@@ -11,8 +11,8 @@ import (
 	keyring "github.com/ppacher/go-dbus-keyring"
 	"golang.org/x/crypto/pbkdf2"
 
-	"hack-browser-data/internal/item"
-	"hack-browser-data/internal/log"
+	"github.com/wenkechen/hack-browser-data/internal/item"
+	"github.com/wenkechen/hack-browser-data/internal/log"
 )
 
 func (c *chromium) GetMasterKey() ([]byte, error) {

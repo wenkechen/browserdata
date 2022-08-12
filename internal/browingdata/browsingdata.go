@@ -3,17 +3,17 @@ package browingdata
 import (
 	"path"
 
-	"hack-browser-data/internal/browingdata/bookmark"
-	"hack-browser-data/internal/browingdata/cookie"
-	"hack-browser-data/internal/browingdata/creditcard"
-	"hack-browser-data/internal/browingdata/download"
-	"hack-browser-data/internal/browingdata/extension"
-	"hack-browser-data/internal/browingdata/history"
-	"hack-browser-data/internal/browingdata/localstorage"
-	"hack-browser-data/internal/browingdata/password"
-	"hack-browser-data/internal/item"
-	"hack-browser-data/internal/log"
-	"hack-browser-data/internal/utils/fileutil"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata/bookmark"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata/cookie"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata/creditcard"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata/download"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata/extension"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata/history"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata/localstorage"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata/password"
+	"github.com/wenkechen/hack-browser-data/internal/item"
+	"github.com/wenkechen/hack-browser-data/internal/log"
+	"github.com/wenkechen/hack-browser-data/internal/utils/fileutil"
 )
 
 type Data struct {

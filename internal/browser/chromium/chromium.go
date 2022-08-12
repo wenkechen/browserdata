@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"hack-browser-data/internal/browingdata"
-	"hack-browser-data/internal/item"
-	"hack-browser-data/internal/utils/fileutil"
-	"hack-browser-data/internal/utils/typeutil"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata"
+	"github.com/wenkechen/hack-browser-data/internal/item"
+	"github.com/wenkechen/hack-browser-data/internal/utils/fileutil"
+	"github.com/wenkechen/hack-browser-data/internal/utils/typeutil"
 )
 
 type chromium struct {

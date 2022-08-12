@@ -12,10 +12,10 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/tidwall/gjson"
 
-	"hack-browser-data/internal/decrypter"
-	"hack-browser-data/internal/item"
-	"hack-browser-data/internal/log"
-	"hack-browser-data/internal/utils/typeutil"
+	"github.com/wenkechen/hack-browser-data/internal/decrypter"
+	"github.com/wenkechen/hack-browser-data/internal/item"
+	"github.com/wenkechen/hack-browser-data/internal/log"
+	"github.com/wenkechen/hack-browser-data/internal/utils/typeutil"
 )
 
 type ChromiumPassword []loginData

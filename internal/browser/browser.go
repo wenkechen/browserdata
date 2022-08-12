@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"hack-browser-data/internal/browingdata"
-	"hack-browser-data/internal/browser/chromium"
-	"hack-browser-data/internal/browser/firefox"
-	"hack-browser-data/internal/log"
-	"hack-browser-data/internal/utils/fileutil"
-	"hack-browser-data/internal/utils/typeutil"
+	"github.com/wenkechen/hack-browser-data/internal/browingdata"
+	"github.com/wenkechen/hack-browser-data/internal/browser/chromium"
+	"github.com/wenkechen/hack-browser-data/internal/browser/firefox"
+	"github.com/wenkechen/hack-browser-data/internal/log"
+	"github.com/wenkechen/hack-browser-data/internal/utils/fileutil"
+	"github.com/wenkechen/hack-browser-data/internal/utils/typeutil"
 )
 
 type Browser interface {

@@ -4,9 +4,9 @@ import (
 	"os"
 	"strings"
 
-	"hack-browser-data/internal/browser"
-	"hack-browser-data/internal/log"
-	"hack-browser-data/internal/utils/fileutil"
+	"github.com/wenkechen/hack-browser-data/internal/browser"
+	"github.com/wenkechen/hack-browser-data/internal/log"
+	"github.com/wenkechen/hack-browser-data/internal/utils/fileutil"
 
 	"github.com/urfave/cli/v2"
 )
