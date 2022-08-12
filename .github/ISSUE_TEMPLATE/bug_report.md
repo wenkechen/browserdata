@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Describe the bug**
-Use `./hack-browser-data -vv` paste result here
+Use `./browser-data -vv` paste result here
 
 
 **Desktop (please complete the following information):**

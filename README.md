@@ -1,11 +1,11 @@
 <div align="center">
-<img src="LOGO.svg" alt="hack-browser-data logo" />
+<img src="LOGO.svg" alt="browser-data logo" />
 </div> 
 
 
 # HackBrowserData
 
-![CI](https://github.com/moonD4rk/HackBrowserData/workflows/CI/badge.svg?branch=master) ![Build Hack-Browser-Data Release](https://github.com/moonD4rk/HackBrowserData/workflows/Build%20Hack-Browser-Data%20Release/badge.svg)
+![CI](https://github.com/moonD4rk/HackBrowserData/workflows/CI/badge.svg?branch=master) ![Build browser-data Release](https://github.com/moonD4rk/HackBrowserData/workflows/Build%20browser-data%20Release/badge.svg)
 
 [中文说明](https://github.com/moonD4rk/HackBrowserData/blob/master/README_ZH.md) 
 
@@ -94,7 +94,7 @@ only support `go 1.18+` with go generics
 ```bash
 $ git clone https://github.com/moonD4rk/HackBrowserData
 
-$ cd HackBrowserData/cmd/hack-browser-data
+$ cd HackBrowserData/cmd/browser-data
 
 $ CGO_ENABLED=1 go build
 ```
@@ -124,12 +124,12 @@ CC=x86_64-linux-musl-gcc CXX=x86_64-linux-musl-g++ GOARCH=amd64 GOOS=linux CGO_E
 You can double-click to run, or use command line.
 
 ```
-PS C:\test> .\hack-browser-data.exe -h
+PS C:\test> .\browser-data.exe -h
 NAME:
-   hack-browser-data - Export passwords/cookies/history/bookmarks from browser
+   browser-data - Export passwords/cookies/history/bookmarks from browser
 
 USAGE:
-   [hack-browser-data -b chrome -f json -dir results -cc]
+   [browser-data -b chrome -f json -dir results -cc]
    Export all browingdata(password/cookie/history/bookmark) from browser
    Github Link: https://github.com/moonD4rk/HackBrowserData
 
@@ -147,7 +147,7 @@ GLOBAL OPTIONS:
    --version, -v                     print the version (default: false)
 
 
-PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results -zip
+PS C:\test>  .\browser-data.exe -b all -f json --dir results -zip
 [NOTICE] [browser.go:46,pickChromium] find browser Chrome success  
 [NOTICE] [browser.go:46,pickChromium] find browser Microsoft Edge success  
 [NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_download.json success  
@@ -167,7 +167,7 @@ PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results -zip
 ### Run with custom browser profile folder
 
 ```
-PS C:\Users\User\Desktop> .\hack-browser-data.exe -b chrome -p 'C:\Users\User\AppData\Local\Microsoft\Edge\User Data\Default'
+PS C:\Users\User\Desktop> .\browser-data.exe -b chrome -p 'C:\Users\User\AppData\Local\Microsoft\Edge\User Data\Default'
 
 [NOTICE] [browsingdata.go:59,Output] output to file results/chrome_creditcard.csv success  
 [NOTICE] [browsingdata.go:59,Output] output to file results/chrome_bookmark.csv success  

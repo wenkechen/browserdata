@@ -1,4 +1,4 @@
-module github.com/wenkechen/hack-browser-data
+module github.com/wenkechen/browser-data
 
 go 1.18
 

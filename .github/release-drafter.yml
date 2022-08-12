@@ -1,4 +1,4 @@
-name-template: 'hack-browser-data-$RESOLVED_VERSION'
+name-template: 'browser-data-$RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
   - title: '🚀 Features'

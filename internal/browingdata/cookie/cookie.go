@@ -8,10 +8,10 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/wenkechen/hack-browser-data/internal/decrypter"
-	"github.com/wenkechen/hack-browser-data/internal/item"
-	"github.com/wenkechen/hack-browser-data/internal/log"
-	"github.com/wenkechen/hack-browser-data/internal/utils/typeutil"
+	"github.com/wenkechen/browser-data/internal/decrypter"
+	"github.com/wenkechen/browser-data/internal/item"
+	"github.com/wenkechen/browser-data/internal/log"
+	"github.com/wenkechen/browser-data/internal/utils/typeutil"
 )
 
 type ChromiumCookie []cookie

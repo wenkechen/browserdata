@@ -5,9 +5,9 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/wenkechen/hack-browser-data/internal/item"
-	"github.com/wenkechen/hack-browser-data/internal/log"
-	"github.com/wenkechen/hack-browser-data/internal/utils/fileutil"
+	"github.com/wenkechen/browser-data/internal/item"
+	"github.com/wenkechen/browser-data/internal/log"
+	"github.com/wenkechen/browser-data/internal/utils/fileutil"
 )
 
 type ChromiumExtension []*extension

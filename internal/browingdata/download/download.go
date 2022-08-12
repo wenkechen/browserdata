@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wenkechen/hack-browser-data/internal/item"
-	"github.com/wenkechen/hack-browser-data/internal/log"
-	"github.com/wenkechen/hack-browser-data/internal/utils/typeutil"
+	"github.com/wenkechen/browser-data/internal/item"
+	"github.com/wenkechen/browser-data/internal/log"
+	"github.com/wenkechen/browser-data/internal/utils/typeutil"
 
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/tidwall/gjson"
