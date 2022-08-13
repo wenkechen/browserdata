@@ -14,9 +14,9 @@ import (
 	"github.com/wenkechen/browserdata/utils/typeutil"
 )
 
-type ChromiumCookie []cookie
+type ChromiumCookie []Cookie
 
-type cookie struct {
+type Cookie struct {
 	Host         string
 	Path         string
 	KeyName      string
@@ -57,7 +57,7 @@ func (c *ChromiumCookie) Parse(masterKey []byte) error {
 			log.Warn(err)
 		}
 
-		cookie := cookie{
+		cookie := Cookie{
 			KeyName:      key,
 			Host:         host,
 			Path:         path,
@@ -90,14 +90,14 @@ func (c *ChromiumCookie) Parse(masterKey []byte) error {
 }
 
 func (c *ChromiumCookie) Name() string {
-	return "cookie"
+	return "Cookie"
 }
 
 func (c *ChromiumCookie) Length() int {
 	return len(*c)
 }
 
-type FirefoxCookie []cookie
+type FirefoxCookie []Cookie
 
 const (
 	queryFirefoxCookie = `SELECT name, value, host, path, creationTime, expiry, isSecure, isHttpOnly FROM moz_cookies`
@@ -124,7 +124,7 @@ func (f *FirefoxCookie) Parse(masterKey []byte) error {
 		if err = rows.Scan(&name, &value, &host, &path, &creationTime, &expiry, &isSecure, &isHttpOnly); err != nil {
 			log.Warn(err)
 		}
-		*f = append(*f, cookie{
+		*f = append(*f, Cookie{
 			KeyName:    name,
 			Host:       host,
 			Path:       path,
@@ -139,7 +139,7 @@ func (f *FirefoxCookie) Parse(masterKey []byte) error {
 }
 
 func (f *FirefoxCookie) Name() string {
-	return "cookie"
+	return "Cookie"
 }
 
 func (f *FirefoxCookie) Length() int {

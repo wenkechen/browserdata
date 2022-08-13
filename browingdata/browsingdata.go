@@ -45,6 +45,26 @@ func (d *Data) Recovery(masterKey []byte) error {
 	return nil
 }
 
+func (d *Data) GetCookies() ([]cookie.Cookie, error) {
+	var cookies []cookie.Cookie
+	for currentItem, source := range d.sources {
+		switch currentItem {
+		case item.ChromiumCookie:
+			cs := source.(*cookie.ChromiumCookie)
+			for _, c := range *cs {
+				cookies = append(cookies, c)
+			}
+		case item.FirefoxCookie:
+			cs := source.(*cookie.FirefoxCookie)
+			for _, c := range *cs {
+				cookies = append(cookies, c)
+			}
+		}
+	}
+
+	return cookies, nil
+}
+
 func (d *Data) Output(dir, browserName, flag string) {
 	output := NewOutPutter(flag)
 
