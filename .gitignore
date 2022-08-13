@@ -178,7 +178,7 @@ config.toml
 Bookmarks
 Login Data
 Cookies
-History
+#History
 *.db
 *.sqlite
 *.sqlite-shm
